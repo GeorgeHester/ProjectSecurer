@@ -1,0 +1,22 @@
+{
+  "name": "ps-api",
+  "version": "0.1.1",
+  "description": "ProjectSecurer-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "NightFox",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcrypt": "^3.0.6",
+    "crypto-js": "^3.1.9-1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.9",
+    "mysql": "^2.17.1"
+  }
+}
